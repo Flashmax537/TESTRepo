@@ -12,5 +12,10 @@ namespace TESTProj
         {
             return testArg;
         }
+            
+        public string GetTest2(string arg)
+        {
+            return "Вывод: " + arg;
+        }
     }
 }
